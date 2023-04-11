@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#pictureLogo {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/aurelien-lemasson-theobald-exNiec0X63g-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+}
+
+#logoBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 10px 0 10px 0;
+    background-color: rgba(0, 0, 0, 0.521);
+    gap: 20px;
+}
+
+#icon {
+    height: 100px;
+    width: auto;
+}
+
+#name {
+    font-size: 4em;
+    color: white;
+    font-family: 'Courier Prime', monospace;
+}
+
+#citations {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    text-align: center;
+}
+
+#citations,
+a {
+    color: gray
+}
