@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Courier, monospace;
 }
 
 body, html {
@@ -20,7 +21,7 @@ body, html {
     background-image: url("/images/aurelien-lemasson-theobald-exNiec0X63g-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    width: 800px;
+    width: 42%;
 }
 
 #logoBar {
@@ -39,9 +40,8 @@ body, html {
 }
 
 #name {
-    font-size: 4em;
+    font-size: 4rem;
     color: white;
-    font-family: 'Courier Prime', monospace;
 }
 
 #citations {
@@ -53,5 +53,108 @@ body, html {
 
 #citations,
 a {
-    color: gray
+    color: rgb(196, 191, 191)
+}
+
+/* Right Side */
+
+#formAccount {
+    background-color: rgb(251, 251, 251);
+    width: 60%;
+}
+#textSection {
+    margin: 100px 150px 0 80px;
+}
+.textFont {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.isolate {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#formBody {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 30px 150px 40px 80px;
+    box-shadow: 3px 3px 3px rgb(207, 205, 205), 3px -3px 3px rgb(207, 205, 205);
+}
+
+#formInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.formRow {
+    display: flex;
+    gap: 80px;
+}
+
+.formRow>div {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+label {
+    font-size: 12px;
+}
+
+input {
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid rgb(204, 203, 202);
+    background-color: rgb(251, 251, 251);
+}
+
+input:focus {
+    outline-color: rgb(83, 119, 83);
+}
+
+button {
+    margin: 0 150px 0 80px;
+    width: 22%;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(83, 119, 83);
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(83, 119, 83);
+    border: 2px solid rgb(83, 119, 83); 
+}
+
+#loginSection {
+    margin: 35px 150px 0 80px;
+    display: flex; 
+    gap: 10px;
+}
+
+#loginSection>a {
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(83, 119, 83);
+}
+
+#loginSection>a:hover {
+    text-decoration: underline;
 }
