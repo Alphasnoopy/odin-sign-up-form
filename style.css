@@ -53,7 +53,7 @@ body, html {
 
 #citations,
 a {
-    color: rgb(196, 191, 191)
+    color: rgb(83, 119, 83);
 }
 
 /* Right Side */
@@ -123,6 +123,11 @@ input {
 
 input:focus {
     outline-color: rgb(83, 119, 83);
+    box-shadow: 2px 2px 2px rgb(207, 205, 205);
+}
+
+input:invalid {
+    outline-color: rgb(240, 76, 76);
 }
 
 button {
