@@ -33,31 +33,31 @@
                             <div class="formRow">
                                 <div>
                                     <label for="first_name">FIRST NAME</label>
-                                    <input type="text" name="first_name" placeholder="John" required>
+                                    <input type="text" name="first_name" placeholder="John" maxlength="20" pattern="[a-zA-z]{2,}" required>
                                 </div>
                                 <div>
                                     <label for="last_name">LAST NAME</label>
-                                    <input type="text" name="last_name" placeholder="Doe" required>
+                                    <input type="text" name="last_name" placeholder="Doe" maxlength="20" pattern="[a-zA-z]{2,}" required>
                                 </div>
                             </div>
                             <div class="formRow">
                                 <div>
                                     <label for="user_email">EMAIL</label>
-                                    <input type="email" name="user_email" placeholder="example@email.com" required>
+                                    <input type="email" name="user_email" placeholder="example@email.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
                                 </div>
                                 <div>
                                     <label for="user_phone">PHONE NUMBER</label>
-                                    <input type="tel" name="user_phone" placeholder="123-XXX-XXXX" required>
+                                    <input type="tel" name="user_phone" placeholder="123-XXX-XXXX" pattern="(\d{3}-){2}\d{4}"required>
                                 </div>
                             </div>
                             <div class="formRow">
                                 <div>
                                     <label for="user_pass">PASSWORD</label>
-                                    <input type="password" name="user_pass" required>
+                                    <input type="password" name="user_pass" maxlength="20" required>
                                 </div>
                                 <div>
                                     <label for="pass_confirm">CONFIRM PASSWORD</label>
-                                    <input type="password" name="pass_confirm" required>
+                                    <input type="password" name="pass_confirm" maxlength="20" required>
                                 </div>
                             </div>
                         </div>
