@@ -18,7 +18,7 @@ body, html {
 #pictureLogo {
     display: flex;
     flex-direction: column;
-    background-image: url("/images/aurelien-lemasson-theobald-exNiec0X63g-unsplash.jpg");
+    background-image: url("./images/aurelien-lemasson-theobald-exNiec0X63g-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 42%;
