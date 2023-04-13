@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Sign Up Form</title>
 </head>
@@ -23,6 +20,55 @@
             </div>  
         </div>
         <div id="formAccount">
+            <div id="textSection" class="textFont">
+                <p>This is not a real online service! Honk! You know you need something like this in your life to help you realize your deepest dreams. Honk!</p>
+                <p>Sign up <i>now</i> to get started. Honk!</p>
+                <p class="isolate">You <i>know</i> you want to. <i>Honk!</i></p>
+            </div>
+            <div id="formSection">
+                <form action="#">
+                    <div id="formBody">
+                        <p class="textFont">Let's do this!</p>
+                        <div id="formInputs">
+                            <div class="formRow">
+                                <div>
+                                    <label for="first_name">FIRST NAME</label>
+                                    <input type="text" name="first_name" placeholder="John" required>
+                                </div>
+                                <div>
+                                    <label for="last_name">LAST NAME</label>
+                                    <input type="text" name="last_name" placeholder="Doe" required>
+                                </div>
+                            </div>
+                            <div class="formRow">
+                                <div>
+                                    <label for="user_email">EMAIL</label>
+                                    <input type="email" name="user_email" placeholder="example@email.com" required>
+                                </div>
+                                <div>
+                                    <label for="user_phone">PHONE NUMBER</label>
+                                    <input type="tel" name="user_phone" placeholder="123-XXX-XXXX" required>
+                                </div>
+                            </div>
+                            <div class="formRow">
+                                <div>
+                                    <label for="user_pass">PASSWORD</label>
+                                    <input type="password" name="user_pass" required>
+                                </div>
+                                <div>
+                                    <label for="pass_confirm">CONFIRM PASSWORD</label>
+                                    <input type="password" name="pass_confirm" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+            <div id="loginSection">
+                <p>Already have an account?</p>
+                <a href="#">Log in</a>
+            </div>
         </div>
     </div>
 </body>
